@@ -31,26 +31,16 @@ function addNewPost(imageUrl, title, date, caption) {
     const postsContainer = document.querySelector('.posts');
     if (postsContainer) {
         const newPost = createPost(imageUrl, title, date, caption);
-        postsContainer.prepend(newPost); // Adds new post at the top
+        postsContainer.prepend(newPost);
     }
 }
-
-// Example of how to add a post:
-// addNewPost(
-//     'images/weekend2-graph.jpg',
-//     'Weekend 2',
-//     new Date(),
-//     'This weekend\'s energy consumption shows a 15% decrease compared to last weekend.'
-// );
 
 // Function to load posts from a data structure
 function loadPosts(posts) {
     const postsContainer = document.querySelector('.posts');
     if (postsContainer) {
-        // Clear existing posts
         postsContainer.innerHTML = '';
         
-        // Add each post
         posts.forEach(post => {
             const newPost = createPost(
                 post.imageUrl,
