@@ -450,4 +450,14 @@ footer {
     .confirmation-content p {
         font-size: 0.9rem;
     }
+}
+
+a {
+    color: var(--primary-dark);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5A735A;
 } 
