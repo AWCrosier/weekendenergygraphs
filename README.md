@@ -11,10 +11,8 @@ A static website showcasing weekly energy transition graphs and insights. This p
 
 ## Setup
 
-1. Clone this repository
-2. Add your graphs to the `graphs/` directory
-3. Update the posts in `script.js` with your content
-4. Update the Kit.com embed code in `index.html` with your form ID if needed
+1. Add your graphs to the `graphs/` directory
+2. Update the posts in `index.html` with your content
 
 ## Development
 
